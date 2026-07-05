@@ -2,6 +2,21 @@
 
 Rust 知识点思维导图整理，按学习时间记录。
 
+## 知识图谱
+
+```mermaid
+graph LR
+    A["06-29 错误处理"] --> B["06-30 Option / Result"]
+    B --> C["06-30 泛型与 Trait"]
+    C --> D["07-01 生命周期"]
+    D --> E["07-02 测试体系"]
+    E --> F["07-03 minigrep 实战"]
+    F --> G["07-05 闭包"]
+
+    C -.-> G
+    D -.-> G
+```
+
 | 日期 | 知识点 | 文件 |
 |------|--------|------|
 | 2026-06-29 | 错误处理机制 | [rust_error_mechanism.xmind](notes/rust_error_mechanism.xmind) |

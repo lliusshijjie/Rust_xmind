@@ -12,9 +12,11 @@ graph LR
     D --> E["07-02 测试体系"]
     E --> F["07-03 minigrep 实战"]
     F --> G["07-05 闭包"]
+    G --> H["07-05 迭代器"]
 
     C -.-> G
     D -.-> G
+    G -.-> H
 ```
 
 | 日期 | 知识点 | 文件 |
@@ -26,3 +28,4 @@ graph LR
 | 2026-07-02 | 测试体系、cargo test | [rust_testing_basics_cargo_test_engineering_practice.xmind](notes/rust_testing_basics_cargo_test_engineering_practice.xmind) |
 | 2026-07-03 | 第12章 minigrep 项目 | [思维导图](notes/rust_chapter12_minigrep_project_summary.xmind) · [代码](projects/minigrep/) |
 | 2026-07-05 | 闭包 (Closure) | [rust_closure_summary.xmind](notes/rust_closure_summary.xmind) |
+| 2026-07-05 | 迭代器 (Iterator) | [rust_iterator_summary.xmind](notes/rust_iterator_summary.xmind) |

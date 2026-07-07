@@ -14,10 +14,12 @@ graph LR
     F --> G["07-05 闭包"]
     G --> H["07-05 迭代器"]
     F --> I["07-06 Cargo"]
+    H --> J["07-07 智能指针"]
 
     C -.-> G
     D -.-> G
     G -.-> H
+    D -.-> J
 ```
 
 | 日期 | 知识点 | 文件 |
@@ -31,3 +33,4 @@ graph LR
 | 2026-07-05 | 闭包 (Closure) | [rust_closure_summary.xmind](notes/rust_closure_summary.xmind) |
 | 2026-07-05 | 迭代器 (Iterator) | [rust_iterator_summary.xmind](notes/rust_iterator_summary.xmind) |
 | 2026-07-06 | Cargo 知识体系 | [rust_cargo_summary.xmind](notes/rust_cargo_summary.xmind) |
+| 2026-07-07 | 智能指针 (所有权 / Deref / Drop) | [rust_smart_pointers_ownership_deref_drop.xmind](notes/rust_smart_pointers_ownership_deref_drop.xmind) |

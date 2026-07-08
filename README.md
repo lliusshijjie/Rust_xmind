@@ -11,15 +11,17 @@ graph LR
     C --> D["07-01 生命周期"]
     D --> E["07-02 测试体系"]
     E --> F["07-03 minigrep 实战"]
+    F --> I["07-06 Cargo"]
     F --> G["07-05 闭包"]
     G --> H["07-05 迭代器"]
-    F --> I["07-06 Cargo"]
-    H --> J["07-07 智能指针"]
+    H --> J["07-08 多线程 Tokio"]
+    D --> K["07-07 智能指针"]
+    K --> J
 
     C -.-> G
     D -.-> G
     G -.-> H
-    D -.-> J
+    D -.-> K
 ```
 
 | 日期 | 知识点 | 文件 |
@@ -34,3 +36,4 @@ graph LR
 | 2026-07-05 | 迭代器 (Iterator) | [rust_iterator_summary.xmind](notes/rust_iterator_summary.xmind) |
 | 2026-07-06 | Cargo 知识体系 | [rust_cargo_summary.xmind](notes/rust_cargo_summary.xmind) |
 | 2026-07-07 | 智能指针 (所有权 / Deref / Drop) | [rust_smart_pointers_ownership_deref_drop.xmind](notes/rust_smart_pointers_ownership_deref_drop.xmind) |
+| 2026-07-08 | 多线程与 Tokio 并发 | [rust_multithreading_tokio_concurrency.xmind](notes/rust_multithreading_tokio_concurrency.xmind) |

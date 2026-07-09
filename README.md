@@ -15,9 +15,13 @@ graph LR
     F --> G["07-05 闭包"]
     G --> H["07-05 迭代器"]
     H --> J["07-08 多线程 Tokio"]
+    J --> L["07-09 模式匹配"]
+    L --> M["07-09 面向对象"]
     D --> K["07-07 智能指针"]
     K --> J
 
+    B -.-> L
+    C -.-> M
     C -.-> G
     D -.-> G
     G -.-> H
@@ -37,3 +41,5 @@ graph LR
 | 2026-07-06 | Cargo 知识体系 | [rust_cargo_summary.xmind](notes/rust_cargo_summary.xmind) |
 | 2026-07-07 | 智能指针 (所有权 / Deref / Drop) | [rust_smart_pointers_ownership_deref_drop.xmind](notes/rust_smart_pointers_ownership_deref_drop.xmind) |
 | 2026-07-08 | 多线程与 Tokio 并发 | [rust_multithreading_tokio_concurrency.xmind](notes/rust_multithreading_tokio_concurrency.xmind) |
+| 2026-07-09 | 模式匹配 (语法 / 场景 / 最佳实践) | [rust_pattern_matching_syntax_scenarios_best_practices.xmind](notes/rust_pattern_matching_syntax_scenarios_best_practices.xmind) |
+| 2026-07-09 | 面向对象特性 | [rust_oop_features_engineering_summary.xmind](notes/rust_oop_features_engineering_summary.xmind) |

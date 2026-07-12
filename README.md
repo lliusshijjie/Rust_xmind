@@ -20,6 +20,8 @@ graph LR
     M --> N["07-12 高级 Trait/闭包"]
     N --> O["07-12 宏基础"]
     O --> P["07-12 unsafe"]
+    P --> Q["07-12 Web 服务器"]
+    J -.-> Q
     D --> K["07-07 智能指针"]
     K --> J
 
@@ -53,3 +55,4 @@ graph LR
 | 2026-07-12 | 高级 Trait 与高级闭包 | [rust_advanced_trait_and_closure.md](notes/rust_advanced_trait_and_closure.md) |
 | 2026-07-12 | 宏基础 | [rust_macro_basics_summary.md](notes/rust_macro_basics_summary.md) |
 | 2026-07-12 | unsafe 机制 | [rust_unsafe_mechanism_summary.md](notes/rust_unsafe_mechanism_summary.md) |
+| 2026-07-12 | 简单 Web 服务器 | [笔记](notes/rust_simple_web_server.md) · [代码](projects/web-server/) |

@@ -17,15 +17,22 @@ graph LR
     H --> J["07-08 多线程 Tokio"]
     J --> L["07-09 模式匹配"]
     L --> M["07-09 面向对象"]
+    M --> N["07-12 高级 Trait/闭包"]
+    N --> O["07-12 宏基础"]
+    O --> P["07-12 unsafe"]
     D --> K["07-07 智能指针"]
     K --> J
 
     B -.-> L
     C -.-> M
+    C -.-> N
     C -.-> G
-    D -.-> G
+    G -.-> N
     G -.-> H
+    D -.-> G
+    D -.-> P
     D -.-> K
+    K -.-> P
 ```
 
 | 日期 | 知识点 | 文件 |
@@ -43,3 +50,6 @@ graph LR
 | 2026-07-08 | 多线程与 Tokio 并发 | [rust_multithreading_tokio_concurrency.xmind](notes/rust_multithreading_tokio_concurrency.xmind) |
 | 2026-07-09 | 模式匹配 (语法 / 场景 / 最佳实践) | [rust_pattern_matching_syntax_scenarios_best_practices.xmind](notes/rust_pattern_matching_syntax_scenarios_best_practices.xmind) |
 | 2026-07-09 | 面向对象特性 | [rust_oop_features_engineering_summary.xmind](notes/rust_oop_features_engineering_summary.xmind) |
+| 2026-07-12 | 高级 Trait 与高级闭包 | [rust_advanced_trait_and_closure.md](notes/rust_advanced_trait_and_closure.md) |
+| 2026-07-12 | 宏基础 | [rust_macro_basics_summary.md](notes/rust_macro_basics_summary.md) |
+| 2026-07-12 | unsafe 机制 | [rust_unsafe_mechanism_summary.md](notes/rust_unsafe_mechanism_summary.md) |

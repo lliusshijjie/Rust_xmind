@@ -50,8 +50,8 @@ graph LR
 | 2026-07-06 | Cargo 知识体系 | [思维导图](notes/xmind/Cargo知识体系.xmind) · [笔记](notes/md/RustCargo知识体系总结.md) |
 | 2026-07-07 | 智能指针 (所有权 / Deref / Drop) | [思维导图](notes/xmind/智能指针.xmind) · [笔记](notes/md/Rust智能指针总结.md) |
 | 2026-07-08 | 多线程与 Tokio 并发 | [思维导图](notes/xmind/多线程与Tokio并发.xmind) · [笔记](notes/md/Rust多线程与Tokio并发总结.md) |
-| 2026-07-09 | 模式匹配 (语法 / 场景 / 最佳实践) | [模式匹配.xmind](notes/xmind/模式匹配.xmind) |
-| 2026-07-09 | 面向对象特性 | [面向对象特性.xmind](notes/xmind/面向对象特性.xmind) |
+| 2026-07-09 | 模式匹配 (语法 / 场景 / 最佳实践) | [模式匹配.xmind](notes/xmind/模式匹配.xmind) · [笔记](notes/md/Rust模式匹配总结.md) |
+| 2026-07-09 | 面向对象特性 | [面向对象特性.xmind](notes/xmind/面向对象特性.xmind) · [笔记](notes/md/Rust面向对象工程化总结.md) |
 | 2026-07-12 | 高级 Trait 与高级闭包 | [Rust高级Trait与高级闭包.md](notes/md/Rust高级Trait与高级闭包.md) |
 | 2026-07-12 | 宏基础 | [Rust宏基础总结.md](notes/md/Rust宏基础总结.md) |
 | 2026-07-12 | unsafe 机制 | [Rust非安全机制总结.md](notes/md/Rust非安全机制总结.md) |

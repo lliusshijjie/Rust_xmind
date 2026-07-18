@@ -23,6 +23,7 @@ graph LR
     P --> Q["07-12 Web 服务器"]
     Q --> R["07-16 Tokio 架构"]
     R --> S["07-17 async/await/Pin"]
+    S --> T["07-18 Stream/join/select"]
     J -.-> Q
     J -.-> R
     D --> K["07-07 智能指针"]
@@ -59,5 +60,6 @@ graph LR
 | 2026-07-12 | 宏基础 | [Rust宏基础总结.md](notes/md/Rust宏基础总结.md) |
 | 2026-07-12 | unsafe 机制 | [Rust非安全机制总结.md](notes/md/Rust非安全机制总结.md) |
 | 2026-07-12 | 简单 Web 服务器 | [笔记](notes/md/Rust简单Web服务器.md) · [代码](projects/web-server/) |
-| 2026-07-16 | Tokio 架构 (Future / Waker / Executor) | [Rust异步编程_Future_Waker_Executor_Tokio架构总结.md](Tokio/Rust异步编程_Future_Waker_Executor_Tokio架构总结.md) |
+| 2026-07-16 | Tokio 架构 (Future / Waker / Executor) | [tokio_future_waker_executor.md](Tokio/tokio_future_waker_executor.md) |
 | 2026-07-17 | Tokio async / await / Pin | [tokio_async_await_pin.md](Tokio/tokio_async_await_pin.md) |
+| 2026-07-18 | Tokio Stream / join! / select! | [tokio_stream_join_select.md](Tokio/tokio_stream_join_select.md) |
